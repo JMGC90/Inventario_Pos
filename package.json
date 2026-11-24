@@ -1,0 +1,24 @@
+{
+  "name": "pos-inventario-resiliente",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "POS e inventario resiliente para emprendedores, con modo contingencia y OCR local.",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --open",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
+    "playwright-core": "^1.65.1",
+    "vite": "^8.3.8"
+  }
+}
